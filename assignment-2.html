@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bus Seat Booking</title>
+  <style>
+    /* Internal CSS starts here */
+    body {
+         margin: 0; 
+         font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        
+        }
+    nav {
+         border: 1px solid black; 
+        padding: 8px 12px;
+        background-color: brown;
+     }
+    .main { 
+        padding: 16px;
+     }
+    .card { 
+        display: flex; 
+        flex-direction: column; 
+    }
+    button {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        padding: 8px 14px;
+        border: 1px solid #333;
+         border-radius: 4px; 
+        background: #f2f2f2; 
+        cursor: pointer; 
+         }
+    table { 
+        border-collapse: collapse;
+     }
+    .frame {
+         border: 1px solid black; 
+         padding: 12px; 
+        }
+    input, select { 
+        padding: 6px 8px;
+         border: 1px solid #ccc; 
+         border-radius: 4px; 
+         outline: none; 
+        }
+    h1 {
+         margin: 8px 0;
+          font-size: 24px;
+         }
+    .label-inline { display: inline-block;
+         width: 110px;
+         }
+    img.responsive {
+         max-width: 100%;
+         height: auto; 
+         display: block;
+         }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="container">
+      <div class="logo"></div>
+      <nav>Bus Seat Booking System</nav>
+    </div>
+  </div>
+
+  <section class="main">
+    <div class="frame">
+      <table>
+        <tr>
+          <td>
+            <div class="card">
+              <div style="margin-bottom: 8px;">
+                <img class="responsive" src="Abes/ABES-CSE-C-Ishlok-Dwivedi-/360_F_491242470_WdSpwKRMYiHqTvRBRpsH72cM4g1VWL22.jpg" alt="image">
+              </div>
+              <h1>Welcome to Bus Booking System</h1>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="frame" style="font-family: inherit;">
+      <label style="display:block; font-weight:600;">User Details</label><br><br>
+
+      <label class="label-inline">User Name</label>
+      <input type="text"><br><br>
+
+      <label class="label-inline">User Password</label>
+      <input type="password"><br><br>
+
+      <label style="display:block; margin-bottom:6px;">User Gender</label>
+      <label style="margin-right:6px;">Male</label>
+      <input type="radio" name="info" style="margin-right:12px;"><br>
+      <label style="margin-right:6px;">Female</label>
+      <input type="radio" name="info"><br><br>
+
+      <label style="margin-right:8px;">User Select City</label>
+      <select>
+        <option>City 1</option>
+        <option>City 2</option>
+        <option>City 3</option>
+      </select><br><br>
+
+      <footer style="margin-top:12px;">
+        <a href="https://stock.adobe.com/in/search/images?k=bus+logo">
+            <button >Seat Book</button>
+        </a>
+        
+
+      </footer>
+    </div>
+  </section>
+</body>
+</html>
